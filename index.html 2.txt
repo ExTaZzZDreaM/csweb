@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+        
+        <ul class="navlist">
+            <li><a href="history.html">History</a><li>
+            <li><a href="#">Wikipedia</a><li>
+            <li><a href="#">Maps</a><li>
+            <li><a href="#">FAQ</a><li>
+        </ul>
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Since 1999</h1>
+            <p>"Step into the action-packed universe of Counter Strike: Unleash your <br> 
+            skills and dominate the battlefield!"</p>
+            <a href="https://youtu.be/edYCtaNueQY">Watch Gameplay</a>
+            <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive" class="ctaa"><i calss="ri-play-fill"></i>Play Now!</a>
+        </div>
+    </section>
+
+    <div class="icons">
+        <a href="https://www.instagram.com/careless.whisperrr/"><i class="ri-instagram-line"></i></a>
+        <a href="https://store.steampowered.com/"><i class="ri-steam-line"></i></a>
+        <a href="https://twitter.com/Steam"><i class="ri-twitter-line"></i></a>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>

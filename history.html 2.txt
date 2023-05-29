@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Strike: History</title>
+<style>
+  @font-face {
+  font-family: "csgo";
+  src: url(Stratum2WebBold.woff) format('truetype');
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'csgo2', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 9%;
+  background: transparent;
+}
+
+body{
+        background-image: url('header_keyart.png');
+        background-repeat: repeat-y;
+        background-attachment: fixed;
+        padding:15px;
+    }
+
+    .article {
+        background-color: rgba(22, 22, 22, 0.95);
+        padding: 10px;
+        margin-bottom: 20px;
+        color: white;
+        max-width: 700px;
+        margin: 20px auto;
+        overflow: auto;
+    }
+
+    .date {
+        color: white;
+        font-family: "csgo", sans-serif;
+    }
+
+  .q{
+    font-family: "csgo", sans-serif;
+   }
+
+    .navlist{
+        display: flex;
+        }
+
+        .navlist a{
+        color:white;
+        margin-left: 60px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition: all .55s ease;
+        }
+
+        .navlist a:hover{
+        border-bottom: 2px solid white;
+        }
+
+        .logo{
+            width: 300px;
+            min-width: 200px;
+            height: 70px;
+            min-height: 50px;
+            background-image: url("logo_cs_full.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            opacity: .8;
+            margin: 10px 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+.logo:hover{
+  opacity: 1;
+}
+
+.content-container {
+  margin-top: 200px; /* Adjust this value as needed to create space below the fixed navlist */
+}
+  #menu-icon{
+  color: white;
+  font-size: 35px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+  
+  
+  @media (max-width: 990px){
+  #menu-icon{
+    display: block;
+  }
+  .navlist{
+    position: absolute;
+    top: 50%;
+    right: -300%;
+    width: 100px;
+    height: 30vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    transition: all .55s ease;
+  }
+  .navlist a{
+    margin-left: 0;
+    display: block;
+    margin: 7px 0;
+  }
+  .navlist.open{
+    right: 0;
+  }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 200px;
+    height: 50px;
+    margin: 10px 0;
+  }
+
+  .navlist {
+    display: none;
+  }
+
+  .content-container {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .article {
+    max-width: 100%;
+  }
+
+  .content-container {
+    margin-top: 130px;
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"></a>
+        
+        <ul class="navlist">
+            <li><a href="#">History</a><li>
+            <li><a href="#">Wikipedia</a><li>
+            <li><a href="#">Maps</a><li>
+            <li><a href="#">FAQ</a><li>
+        </ul>
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+<div class="content-container">
+  <div class="content">
+    <div class="article">
+    <div class="date">COUNTER-STRIKE : WHAT YOU NEED TO KNOW</div>
+    
+    <p class="q">Counter-Strike was first developed as a mod for Valve’s Half-Life game. Minh “Gooseman” Le and Jess “Cliffe” Cliffe developed the game in 1999. The mod’s popularity came to a head in 2000 when Valve acquired the mod with the intent to turn Counter-Strike into a full-fledged, standalone video game.
+
+        The game centers around two groups of players: terrorists and counter-terrorists. Both teams typically complete goals to win the game against the other team. On the one hand, terrorists try to complete an act of terror, such as a bombing, while counter-terrorists try to stop them by disarming the bomb.
+        
+        Since the original release of Counter-Strike, several spin-offs and sequels have come out leading up to the most recent release. The latest installation, Counter-Strike: Global Offensive, has received regular, comprehensive updates to the game, including new maps, modes, and balance changes for the last ten years.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fm-alaXKXbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    
+    <div class="article">
+            <div class="date">COUNTER-STRIKE : CONDITION ZERO</div>
+            <p class="q">Counter-Strike: Condition Zero followed the release of Counter-Strike. It was released in 2004 and received mixed reviews, unlike Counter-Strike, which was critically acclaimed. Condition Zero ran on Half-Life’s GoldSrc engine, just like the game before it.
+     Condition Zero was developed by Turtle Rock Studios and contained a full in-universe campaign alongside its multiplayer modes.</p>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/EcDqFnUyqYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    
+    <div class="article">
+      <div class="date">COUNTER-STRIKE: SOURCE</div>
+      <p class="q">Counter-Strike: Source was released in 2004 as a remake of the original Counter-Strike. It was developed by Valve and uses the Source engine, which was also used in Half-Life 2. Counter-Strike: Source features updated graphics and physics, as well as new gameplay features such as dynamic lighting and ragdoll physics.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/bvI62FUDpKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="article">
+      <div class="date">COUNTER-STRIKE: GLOBAL OFFENSIVE</div>
+      <p class="q">Counter-Strike: Global Offensive was released in 2012 as the latest installment in the Counter-Strike series. It was developed by Valve and uses the Source engine, just like Counter-Strike: Source. Counter-Strike: Global Offensive features updated graphics and gameplay, as well as new features such as a competitive matchmaking system and a workshop where players can create and share custom content.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/edYCtaNueQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="article">
+      <div class="date">COUNTER-STRIKE ONLINE</div>
+      <p class="q">Counter-Strike Online is a free-to-play version of Counter-Strike that was developed by Nexon for the Asian market. It was released in 2007 and features a number of changes from the original game, such as new maps, weapons, and game modes.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hjk82OOQqd4" title="Counter-Strike Online Gameplay - First Look HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="article">
+      <div class="date">COUNTER-STRIKE: NEXON STUDIES</div>
+      <p class="q">Counter-Strike: Nexon Studios is a free-to-play version of Counter-Strike that was developed by Nexon for the global market. It was released in 2015 and features a number of changes from the original game, such as new maps, weapons, and game modes.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/T3fltRLP9Ug" title="Counter Strike Nexon Studio Multiplayer Online Gameplay Map Inferno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="article">
+        <div class="date">Who developed Counter-Strike?</div>
+        <p class="q">The first Counter-Strike, the mod for Half-Life, was developed by Minh Le and Jess Cliffe. Most Counter-Strike games are developed by Valve, but Counter-Strike: Condition was developed by Turtle Rock Studios, and Nexon develops the Asian versions of Counter-Strike.</p>
+        <div class="date">What platform is Counter-Strike released on?</div>
+        <p class="q">Counter-Strike games have historically been primarily PC games, releasing first for Windows and later for OSX and Linux. Counter-Strike: Global Offensive was also released for the Xbox 360 and PlayStation 3.</p>
+        <div class="date">How does Counter-Strike differ from other first-person shooters?</div>
+        <p class="q">Counter-Strike uses different mechanics than other first-person shooters. While most first-person-shooters include modes such as deathmatch (the number of kills determines the winner) or capture the flag (the winner brings the loser’s flag to their base), Counter-Strike’s assassination, hostage rescue, and bomb defusal modes–the most popular ones–require unique skills since the winner is not determined by simply killing everyone you see.</p>
+        <div class="date">Does Counter-Strike allow mods?</div>
+        <p class="q">Counter-Strike does allow players to mod the game to improve their own experience. It would be somewhat ironic if it didn’t, as the game was first spawned as a mod for Half-Life.</p>
+        <div class="date">What was the prize pool of the first major Counter-Strike tournament?</div>
+        <p class="q">The first major Counter-Strike tournament had a prize pool of $15,000.</p>
+  </div>
+</div>
+
+<script>
+  var menu = document.querySelector('#menu-icon');
+  var navlist = document.querySelector('.navlist');
+
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navlist.classList.toggle('open');
+}
+</script>
+
+</body>
+</html>
