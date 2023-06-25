@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#788c9e;
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	line-height:24px;
+	color:#2d394b;
+	text-align:left;
+	background-image: url("bg.jpg"); 
+	overflow-x: hidden; 
+	overflow-y: auto;
+}
+
+p {
+	margin:0;
+	padding:0;
+	font-family:Calibri,Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:22px;
+	color:#d4d7dd;
+	text-align:left;
+}
+
+a {
+	text-decoration:none;
+	color:#6b6b6b;
+	font-size:14px;
+}
+
+a:hover {
+	color:#e8e9e9;
+}
+
+img {
+border:none;
+outline:none;
+}
+
+#video {
+    display:block;
+    position:absolute;
+    top:645px;
+    left:46px;
+    z-index:2;
+}
+
+#beauty_slider{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#beauty_slider_container{
+    position: relative;
+    top: 144px;
+}
+
+#beauty_slider_prev{
+	background-image: url("map_prev.png");
+	position: absolute;
+	left: 40px;
+	top: 240px;
+	height: 40px;
+	width: 28px;
+	z-index: 1002;
+}
+
+#beauty_slider_next{
+	background-image: url("map_next.png");
+	position: absolute;
+	right: 40px;
+	top: 240px;
+	height: 40px;
+	width: 28px;
+	z-index: 1002;
+}
+
+.controls:hover
+{
+	cursor: pointer;
+}
+
+ul {
+	line-height: 28px;
+}
+
+li {
+	margin-left: 10px;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+li:before {
+    content: "-";
+    padding-right: 8px;
+}
+
+.shadow {
+  font-family: 'Anton';
+  font-size: 44px;
+  color: #2f2f2f;
+  font-weight: bold;
+  text-shadow:
+  	1px 1px 0 #c2b9b0,
+    4px 4px 0 #c2a254,
+    5px 5px 0 #c2a254,
+    6px 6px 0 #c2a254,
+    7px 7px 0 #c2a254;
+  line-height: 0.8em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  text-align: center;
+  letter-spacing: 8px;
+  top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+/******* containers *******/
+
+#bg_01 {
+	background-image:url("bg_01.png");
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+#container_01 {
+	background-image:url("bg_01.png");
+	background-position:top center;
+	background-repeat:no-repeat;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:984px;
+	height:715px;
+}
+
+#bg_02 {
+	background-image:url("bg_02.png");
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+#container_02 {
+	background-image:url("bg_02.png");
+	background-position:top center;
+	background-repeat:no-repeat;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:984px;
+	height:745px;
+}
+
+#bg_03 {
+	background-image:url("tile.png");
+	background-position:top center;
+	background-repeat:repeat-y;
+	z-index:2;
+}
+
+#container_03 {
+	background-image:url("tile.png");
+	background-position:top center;
+	background-repeat:repeat-y;
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:984px;
+    height:6680px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+#bg_04 {
+	background-image:url("bg_end.png");
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+#container_04 {
+	background-image:url("bg_end.png");
+	background-position:top center;
+	background-repeat:no-repeat;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:984px;
+	height:283px;
+}
+
+#bg_05 {
+	background-image:url("bg_05.png");
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+#container_05 {
+	background-image:url("bg_05.png");
+	background-position:top center;
+	background-repeat:no-repeat;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:984px;
+	height:896px;
+}
+
+
+
+
+/* before and after */
+
+.before_after {
+    position:relative;
+    width:892px;
+    left:46px;
+	z-index: 2;
+}
+.frame {
+	position: relative; 
+	width: 940px;
+	height: 600px;
+	background-image: url("frame.png");
+	top: -580px;
+	left: 24px;
+	margin-bottom: -580px;
+}
+
+
+
+
+
+/*********** copy styles ***********/
+
+.copy {
+    position:relative;
+	width: 880px;
+	display: block;
+    margin: auto;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 88px;
+	font-weight: 400;
+	display: block;
+    margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title1 {
+	position: relative;
+	top: 250px;
+}
+
+h2 {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: #800a10;
+}
+
+#copy_02_01 {
+	position: relative;
+	width:840px;
+	top:405px;
+	display: block;
+    margin: auto;
+}
+
+#copy_02_02 {
+	position: relative;
+	width:840px;
+	top:448px;
+	display: block;
+    margin: auto;
+}
+
+#logoLink {
+	display:block;
+	position:absolute;
+	top:20px;
+	left:345px;
+	width:270px;
+	height:70px;
+}
+
+
+
+
+#valveLinks {
+	display:block;
+	position:absolute;
+	width:748px;
+	height:100px;
+	top:90px;
+	left:116px;
+}
+
+.button:hover {
+	background-position:bottom;
+}
+
+#feather {
+    position: relative;
+	height: 52px;
+    background-image:url("feather.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    z-index: 112;
+	margin-bottom: 0px;
+}
